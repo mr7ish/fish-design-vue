@@ -1,0 +1,17 @@
+{
+  "name": "fish-design-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fish-design-vue/components": "link:packages\\components",
+    "@fish-design-vue/hooks": "link:packages\\hooks",
+    "@fish-design-vue/utils": "link:packages\\utils"
+  }
+}

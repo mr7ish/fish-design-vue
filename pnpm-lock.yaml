@@ -1,0 +1,25 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@fish-design-vue/components':
+        specifier: link:packages\components
+        version: link:packages/components
+      '@fish-design-vue/hooks':
+        specifier: link:packages\hooks
+        version: link:packages/hooks
+      '@fish-design-vue/utils':
+        specifier: link:packages\utils
+        version: link:packages/utils
+
+  packages/components: {}
+
+  packages/hooks: {}
+
+  packages/utils: {}
